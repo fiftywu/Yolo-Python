@@ -56,9 +56,7 @@ make clean & make
 ## Step 3: Yolo-Python
 
 ```python
-from darknet import darknet
-import numpy as np
-import matplotlib.pyplot as plt
+from DarknetTest import Detector
 
 
 image = ''  	  # (image path or ndarray)
@@ -67,8 +65,6 @@ yolov3 = Detector(gpu=1,
                   weights="/darknet/yolov3.weights",
                   data="/darknet/cfg/coco.data")
 result, width_height = yolov3.detect_result(image)
-mask = yolov3.detect_mask(result, width_height, remove_list=['dog'])
-plt.imshow(mask)
 ```
 
 
