@@ -55,6 +55,8 @@ make clean & make
 
 ## Step 3: Yolo-Python
 
+**Core Module: DarknetTest**
+
 ```python
 from DarknetTest import Detector
 
