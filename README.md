@@ -21,7 +21,7 @@ wget https://pjreddie.com/media/files/yolov3.weights
 * change the first line of Makefile
 
 ```shell
-CPU = 1
+GPU = 1
 ```
 
 * make
